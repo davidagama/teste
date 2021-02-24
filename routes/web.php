@@ -14,6 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "Hello world from laravel, malandro!";
+    return view('welcome');
     
 });
+
+Route::get('/contato', function () {
+    return view('contato');
+    
+});
+
+Route::get('/agenda', function () {
+    return view('agenda');
+    
+});
+
