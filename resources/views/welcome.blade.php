@@ -1,22 +1,11 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.main')
 
-        <title>Laravel</title>
-            <link rel="stylesheet" href="/css/style.css">
-            <script src="/js/scripts.js"></script>
+@section('title', 'Eventos')
 
-           
-           </head>
-    <body >
+@section('content')
 
     <h1>Titulo da pagina inicial</h1>
 
     <img src="/img/site/banner.jpg" alt="banner">
    
-
-
-    </body>
-</html>
+@endsection
